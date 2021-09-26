@@ -259,14 +259,14 @@
 }
 
 .socials {
-    width: 30px;
+    width: 25px;
     margin: 5px;
     float: right;
     margin-top: -3px;
 }
 
 .face {
-    width: 33px;
+    width: 29px;
 }
 
 .insta {
@@ -570,6 +570,11 @@
   }
 
 
+  .drift-controller-icon--active {
+      background: black;
+  }
+
+
  
 
 
@@ -707,10 +712,16 @@
         font-size: 15px;
     }
 
-    .info-con h1 {
+    /* .info-con h1 {
         font-size: 20px;
         text-transform: uppercase;
         padding: 10px;
+    } */
+
+    .info-con h1 {
+        font-size: 14px;
+        font-weight: bold;
+
     }
 
     .sqr {
@@ -780,9 +791,9 @@
         
     }
 
-    .btn-dark {
-        margin-left: 55px;
-    }
+    /* .btn-dark {
+        margin-left: 56px;
+    } */
 
     .prof-img {
         margin-left: 0;
@@ -805,13 +816,64 @@
         font-size: 20px;
     }
 
-    .b-black {
-        width: 155px;
+
+    .socials {
+        width: 25px;
     }
-  
+
+    .face {
+        margin-top: -1px;
+    }
+
+    .nav-contact {
+        display: none;
+        visibility: hidden;
+    } 
+
+    .b-black {
+        width: 160px;
+    }
 
 
 }
+
+/* small devices  */
+
+@media (max-width: 320px){  
+
+    .accordion-body {
+        width: 163%;
+        margin-left: -30px;
+    }
+
+    .face {
+        margin-top: -2px;
+        width: 26px;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+
+
+    .nav-contact {
+        display: none;
+        visibility: hidden;
+    } 
+
+    .b-black {
+        width: 150px;
+        margin-left: -20px;
+    }
+
+    /* .btn-dark {
+        margin-left: 55px;
+    } */
+
+}    
+
+
+
 
 
 
