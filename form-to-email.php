@@ -7,7 +7,7 @@
 <!-- compose email message  -->
 
 <?php
-	$email_from = '40dd3d45641d3ba44879cd0a6337289a';
+	$email_from = 'aman@advancesleek.co.nz';
 
 	$email_subject = "New Form submission";
 
@@ -20,7 +20,9 @@
 
 
 
-  $to = "40dd3d45641d3ba44879cd0a6337289a";
+  $to = "aman@advancesleek.co.nz";
+
+  // 40dd3d45641d3ba44879cd0a6337289a
 
   $headers = "From: $email_from \r\n";
 
@@ -67,5 +69,5 @@ if(IsInjected($visitor_email))
 
 <?php
 /* Mailhandler for the main email address */
-header ("Location: mailto:40dd3d45641d3ba44879cd0a6337289a");
+header ("Location: mailto:aman@advancesleek.co.nz");
 exit();
