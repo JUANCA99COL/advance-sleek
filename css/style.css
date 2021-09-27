@@ -782,8 +782,7 @@
 
     .bg-image {
         height: 664px;
-        filter: brightness(10%);
-        /* width: 220%; */
+        /* filter: brightness(30%); */
     }
 
     .icons-sec {
