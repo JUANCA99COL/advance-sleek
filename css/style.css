@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
+.aman-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+}
 
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+ }
+
+ html {
+    overflow-x: hidden;
  }
 
 
@@ -301,6 +313,14 @@
     
 }
 
+.bg-image2 {
+    width: 100%;
+    height: auto;
+    filter: brightness(30%);
+    display: none;
+    visibility: hidden;  
+}
+
 .menu {
     width: 60px;
     float: right;
@@ -581,6 +601,53 @@
 /* MEDIA QUARIES  */
 
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width:1198px){
+    .nav-home {
+        display: none;
+        visibility: hidden;
+    }
+
+    .ele-nv {
+        display: none;
+        visibility: hidden;
+    }
+
+    .sec-nav {
+        display: block;
+        visibility: visible; 
+    }
+
+    .abt-nav {
+        display: block;
+        visibility: visible; 
+    }
+
+    .logo2 {
+        margin-top: 41px;
+        margin-left: 10px;
+        display: block;
+        visibility: visible;
+    }
+
+    .menu {
+        margin-top: -50px;
+    }
+
+    .contact-img {
+        display: none;
+    } 
+
+    .logo {
+        display: none;
+        visibility: hidden;
+    }
+
+
+} 
+
+
+
 
 /* tablets  */
 
@@ -629,6 +696,11 @@
     .thanks img {
         visibility: hidden;
     }
+
+    .logo2 {
+        margin-top: 57px;
+    }
+    
 }
 
 
@@ -637,19 +709,30 @@
 
 @media (max-width: 575px){   
 
+    .me-two {
+        margin-top: -50px;
+    }
+
     .sub-header {
-        font-size: 16px;
+        font-size: 8px;
+    }
+
+    .content {
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .title-home {
-        font-size: 30px;
-        margin-top: 24px;
-        margin-bottom: 24px;
+        font-size: 17px;
+        margin-top: -15px;
+        margin-bottom: -5px;
     }
 
     .arrow {
-        margin-top: 9px;
-        width: 25px;
+        margin-top: -3px;
+        width: 16px;
     }
 
     .my-button {
@@ -703,17 +786,17 @@
     }
 
     .menu {
-        width: 60px;
+        width: 56px;
     }
 
 
     #about {
         text-align: center;
-        margin-top: -50px;
+        margin-top: -80px;
     }
 
     #contact {
-        margin-top: -58px;
+        margin-top: -80px;
     }
 
     .heading {
@@ -728,8 +811,14 @@
         height: 700px;
     }
 
+    .bg-image2 {
+        display: block;
+        visibility: visible;
+    }
+
     .bg-image {
-        height: 664px;
+        display: none;
+        visibility: hidden;
     }
 
     .icons-sec {
@@ -777,6 +866,15 @@
         width: 160px;
     }
 
+    .logo2 {
+        margin-top: 32px;
+        margin-left: -9px;
+        font-size: 13px;
+
+    }
+
+
+
 
 }
 
@@ -812,59 +910,7 @@
     }
 
 
-
 }    
-
-
-
-
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (max-width:1198px){
-    .nav-home {
-        display: none;
-        visibility: hidden;
-    }
-
-    .ele-nv {
-        display: none;
-        visibility: hidden;
-    }
-
-    .sec-nav {
-        display: block;
-        visibility: visible; 
-    }
-
-    .abt-nav {
-        display: block;
-        visibility: visible; 
-    }
-
-    .logo2 {
-        margin-top: 41px;
-        margin-left: 10px;
-        display: block;
-        visibility: visible;
-    }
-
-    .menu {
-        margin-top: -50px;
-    }
-
-    .contact-img {
-        display: none;
-    } 
-
-    .logo {
-        display: none;
-        visibility: hidden;
-    }
-
-
-} 
-
 
 
 
