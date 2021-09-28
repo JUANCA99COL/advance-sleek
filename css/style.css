@@ -790,9 +790,6 @@
         
     }
 
-    /* .btn-dark {
-        margin-left: 56px;
-    } */
 
     .prof-img {
         margin-left: 0;
@@ -838,7 +835,7 @@
 
 /* small devices  */
 
-@media (max-width: 320px){  
+/* @media (max-width: 320px){  
 
     .accordion-body {
         width: 163%;
@@ -865,11 +862,9 @@
         margin-left: -20px;
     }
 
-    /* .btn-dark {
-        margin-left: 55px;
-    } */
 
-}    
+
+}     */
 
 
 
