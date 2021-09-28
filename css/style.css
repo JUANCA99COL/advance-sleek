@@ -7,6 +7,11 @@
     padding: 0;
  }
 
+ .footer {
+    position:absolute;
+    bottom:0;
+ }
+
 
 #contact {
     background: #BF8328; 
@@ -580,53 +585,11 @@
 
 /* MEDIA QUARIES  */
 
-@media (max-width:1198px){
-    .nav-home {
-        display: none;
-        visibility: hidden;
-    }
 
-    .ele-nv {
-        display: none;
-        visibility: hidden;
-    }
-
-    .sec-nav {
-        display: block;
-        visibility: visible; 
-    }
-
-    .abt-nav {
-        display: block;
-        visibility: visible; 
-    }
-
-    .logo2 {
-        margin-top: 41px;
-        margin-left: 10px;
-        display: block;
-        visibility: visible;
-    }
-
-    .menu {
-        margin-top: -50px;
-    }
-
-    .contact-img {
-        display: none;
-    } 
-
-    .logo {
-        display: none;
-        visibility: hidden;
-    }
-
-
-}
 
 /* tablets  */
 
-@media (max-width:961px){
+ @media (max-width:961px){
 
     .title-home {
         font-size: 23px;
@@ -671,8 +634,6 @@
     .thanks img {
         visibility: hidden;
     }
-
-
 }
 
 
@@ -712,11 +673,6 @@
         font-size: 15px;
     }
 
-    /* .info-con h1 {
-        font-size: 20px;
-        text-transform: uppercase;
-        padding: 10px;
-    } */
 
     .info-con h1 {
         font-size: 14px;
@@ -753,7 +709,6 @@
 
     .menu {
         width: 60px;
-        /* margin-top: 0px; */
     }
 
 
@@ -763,9 +718,7 @@
     }
 
     #contact {
-        /* background: #BF8328; */
         margin-top: -58px;
-        /* border: 1px solid red; */
     }
 
     .heading {
@@ -782,7 +735,6 @@
 
     .bg-image {
         height: 664px;
-        /* filter: brightness(30%); */
     }
 
     .icons-sec {
@@ -833,6 +785,8 @@
 
 }
 
+
+
 /* small devices  */
 
 @media (max-width: 320px){  
@@ -865,6 +819,56 @@
 
 
 }    
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width:1198px){
+    .nav-home {
+        display: none;
+        visibility: hidden;
+    }
+
+    .ele-nv {
+        display: none;
+        visibility: hidden;
+    }
+
+    .sec-nav {
+        display: block;
+        visibility: visible; 
+    }
+
+    .abt-nav {
+        display: block;
+        visibility: visible; 
+    }
+
+    .logo2 {
+        margin-top: 41px;
+        margin-left: 10px;
+        display: block;
+        visibility: visible;
+    }
+
+    .menu {
+        margin-top: -50px;
+    }
+
+    .contact-img {
+        display: none;
+    } 
+
+    .logo {
+        display: none;
+        visibility: hidden;
+    }
+
+
+} 
 
 
 
