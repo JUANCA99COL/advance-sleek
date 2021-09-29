@@ -649,6 +649,10 @@
         visibility: hidden;
     }
 
+    .contact-img {
+        height: 1200px;
+     } 
+
 
 } 
 
@@ -708,10 +712,8 @@
     }
 
     .contact-img {
-       width: 100%;
-       height: auto;
-       margin: auto;
-       display: block;
+       display: none;
+       visibility: hidden;
     } 
     
 }
