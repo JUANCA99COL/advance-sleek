@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-.aman-text {
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+
+
+
+ .aman-text {
     font-family: 'Lato', sans-serif;
 }
 
@@ -12,23 +27,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
-
-
-body {
-    overflow-x: hidden;
-    max-width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
 
 
 #contact {
@@ -438,8 +436,6 @@ body {
 }
 
   .box {
-    width: 104vw;
-    height: auto;
     background: linear-gradient(to top right, #C8C7C7 49.9%, black 50.1%);
   }
 
