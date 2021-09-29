@@ -515,8 +515,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.7;
-    border-radius: 25px;
   }
 
   .sc-icon {
@@ -539,7 +537,7 @@
 
   .sqr {
       background: white;
-      /* opacity: 0.5; */
+      opacity: 0.5;
       border: 1px solid black;
 
   }
@@ -788,11 +786,11 @@
     }
 
     .my-grid h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .my-grid h3 {
-        font-size: 15px;
+        font-size: 18px;
         margin-bottom: -22px;
     }
 
