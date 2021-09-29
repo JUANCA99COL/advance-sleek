@@ -644,14 +644,11 @@
         margin-top: -50px;
     }
 
-    .contact-img {
-        display: none;
-    } 
-
     .logo {
         display: none;
         visibility: hidden;
     }
+    
 
 
 } 
@@ -710,6 +707,11 @@
     .logo2 {
         margin-top: 57px;
     }
+
+    .contact-img {
+        width: 100%;
+        height: auto;
+    } 
     
 }
 
