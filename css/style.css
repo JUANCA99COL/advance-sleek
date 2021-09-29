@@ -8,6 +8,12 @@
     font-family: 'Lato', sans-serif;
 }
 
+.lettters-dark {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
 
 * {
     box-sizing: border-box;
@@ -15,10 +21,14 @@
     padding: 0;
  }
 
- html {
+
+body {
     overflow-x: hidden;
-    
- }
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
 
 #contact {
@@ -30,9 +40,15 @@
 }
 
 
+/* bg responsive  */
 #social-media {
     position: relative;
-}
+    background-image: url("../img/bg-getintouch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+  }
 
 #about {
     background: #BF8328; 
@@ -495,19 +511,16 @@
   /* end  */
 
 
-  .sc-cover {
-      width: 100%;
-      height: auto;
-      filter: brightness(40%);
-  }
+ 
 
-
-
+ 
   .my-grid {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0.7;
+    border-radius: 25px;
   }
 
   .sc-icon {
@@ -530,7 +543,7 @@
 
   .sqr {
       background: white;
-      opacity: 0.5;
+      /* opacity: 0.5; */
       border: 1px solid black;
 
   }
