@@ -1,11 +1,6 @@
 console.log('hello');
 
 
-
-$(window).on("load",function(){
-  $(".wrapper-loader").fadeOut("slow");
-});
-
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
@@ -15,7 +10,7 @@ function closeNav() {
 }
 
 
-  // slideshow 
+// slideshow 
 
 var slideIndex = 0;
 showSlides();
