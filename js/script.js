@@ -1,12 +1,18 @@
 console.log('hello');
 
+
+
+$(window).on("load",function(){
+  $(".wrapper-loader").fadeOut("slow");
+});
+
 function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
-  
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 
 
   // slideshow 
@@ -30,8 +36,5 @@ slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
 setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
-
-
 
 
