@@ -11,12 +11,7 @@
     overflow-x: hidden;
  }
 
-
-
-
-
-
- .aman-text {
+.aman-text {
     font-family: 'Lato', sans-serif;
 }
 
@@ -42,7 +37,7 @@
 /* bg responsive  */
 #social-media {
     position: relative;
-    background-image: url("../img/bg-getintouch.jpg");
+    background-image: url("../img/new-laptop-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
