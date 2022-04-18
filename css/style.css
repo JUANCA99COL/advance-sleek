@@ -26,7 +26,7 @@ background-image: url("../img/new-laptop-img.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
-height: 600px;
+height: 650px;
 }
 
 /* index bg responsive  */
@@ -331,7 +331,7 @@ filter: invert(100%) sepia(0%) saturate(4875%) hue-rotate(5deg) brightness(113%)
 
 .menu2 {
 position: absolute;
-top: 5%;
+top: 4%;
 right: 5%;
 width: 30px;
 cursor: pointer;
@@ -798,6 +798,10 @@ margin-top: -1px;
 
 .b-black {
 width: 160px;
+}
+
+#social-media {
+height: 700px;
 }
 }
 
