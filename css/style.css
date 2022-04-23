@@ -64,7 +64,7 @@ background: #BF8328;
 
 .about-nav li{
     list-style: none;
-    padding: 10px;
+    padding: 15px;
     margin-top: 5px;
     display: inline-block;
 }
@@ -331,7 +331,7 @@ filter: invert(100%) sepia(0%) saturate(4875%) hue-rotate(5deg) brightness(113%)
 
 .menu2 {
 position: absolute;
-top: 4%;
+top: 5%;
 right: 5%;
 width: 30px;
 cursor: pointer;
@@ -803,14 +803,10 @@ width: 160px;
 #social-media {
 height: 700px;
 }
-
-.menu2 {
-width: 40px;
-}
 }
 
 /* small devices  */
-@media (max-width: 320px){  
+@media only screen and (max-width: 375px) {
 .accordion-body {
 width: 163%;
 margin-left: -30px;
@@ -828,5 +824,10 @@ font-size: 44px;
 .b-black {
 width: 150px;
 margin-left: -20px;
+}
+
+.menu2 {
+position: absolute;
+top: 6%;
 }
 }    
